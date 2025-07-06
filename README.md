@@ -30,12 +30,10 @@ These features are based on real-world vehicle data and are chosen for their kno
 	•	Matplotlib
 
 ### 🚀 How to Use
-	1.	Clone the repository:
-        git clone https://github.com/your-username/co2-emissions-predictor.git
-        cd co2-emissions-predictor
+	1.	Clone the repository, open the project's folder
     2.	Install the requirements:
         pip install -r requirements.txt
-    3.	Open the notebook:
+    3.	Open the notebook with your favorite IDE:
         jupyter notebook CO2_Emissions_Predictor.ipynb
     4.	Follow the notebook steps to:
 	    •	Load and explore the dataset
