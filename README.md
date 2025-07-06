@@ -34,7 +34,7 @@ These features are based on real-world vehicle data and are chosen for their kno
     2.	Install the requirements:
         pip install -r requirements.txt
     3.	Open the notebook with your favorite IDE:
-        jupyter notebook CO2_Emissions_Predictor.ipynb
+        jupyter notebook emissions_prediction.ipynb
     4.	Follow the notebook steps to:
 	    •	Load and explore the dataset
 	    •	Preprocess and visualize the data
