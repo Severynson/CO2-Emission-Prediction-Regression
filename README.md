@@ -35,19 +35,19 @@ Here, explainability is less important — the goal is robust accuracy.
 
 It includes:
 
-✔ Data preprocessing
-✔ Train–test split
-✔ ColumnTransformers for:
-- Linear + MLP models (one-hot + scaling)
-- Tree-based models (ordinal encoding)
-✔ A unified Pipeline + GridSearchCV exploring:
-- Linear Regression (with polynomial features)
-- Ridge
-- SVR
-- Decision Trees
-- Random Forests
-- Gradient Boosting
-- MLP Neural Networks
+- ✔ Data preprocessing
+- ✔ Train–test split
+- ✔ ColumnTransformers for:
+  - Linear + MLP models (one-hot + scaling)
+  - Tree-based models (ordinal encoding)
+- ✔ A unified Pipeline + GridSearchCV exploring:
+  - Linear Regression (with polynomial features)
+  - Ridge
+  - SVR
+  - Decision Trees
+  - Random Forests
+  - Gradient Boosting
+  - MLP Neural Networks
 
 ✔ Cross-validated R² and RMSE comparisons
 ✔ Visualization of model performance
