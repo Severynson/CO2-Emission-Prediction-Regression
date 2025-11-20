@@ -87,18 +87,22 @@ Fuel consumption columns are intentionally removed because they create data leak
 - Matplotlib, Seaborn
 
 ### 🚀 How to Use
-1.	Clone the repository
+#### 1.	Clone the repository
 ```
 git clone <your-repository-url>
 cd <project-folder>
 ```
-2.	Install the requirements:
-```pip install -r requirements.txt```
-3.	Open the notebook. Use Jupyter Notebook or VS Code::
-```jupyter notebook```
-4.	Choose your workflow
+#### 2.	Install the requirements:
+```
+pip install -r requirements.txt
+```
+#### 3.	Open the notebook. Use Jupyter Notebook or VS Code::
+```
+jupyter notebook
+```
+#### 4.	Choose your workflow
 
-#### 🔍 If you want to understand the dataset and interpret coefficients
+##### 🔍 If you want to understand the dataset and interpret coefficients
 ##### Open:
 **dataset_analytics.ipynb**
 You will be able to:
@@ -106,7 +110,7 @@ You will be able to:
 - Understand relationships between features
 - Analyze coefficients of a simple, explainable Lasso model
 
-#### 🤖 If you want to train the best predictive model
+##### 🤖 If you want to train the best predictive model
 ##### Open:
 **emissions_prediction.ipynb**
 You will be able to:
