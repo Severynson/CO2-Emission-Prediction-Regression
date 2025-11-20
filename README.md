@@ -120,7 +120,5 @@ You will be able to:
 - Predict emissions for new vehicle prototypes
 
 ### 📁 Dataset
-The project uses the CO₂ Emissions dataset from Kaggle:
+The project uses the CO₂ Emissions dataset collected by Canadian government, posted on Kaggle:
 https://www.kaggle.com/datasets/debajyotipodder/co2-emission-by-vehicles?resource=download
-
-The dataset contains real-world Canadian vehicle emissions and technical specifications, making it ideal for both interpretive analysis and predictive modeling.
