@@ -10,10 +10,10 @@ Exploring the dataset + explainable modeling
 
 This notebook focuses on understanding the structure, relationships, and underlying patterns of the CO₂ dataset.
 Its goal is not to maximize predictive performance, but to use a highly interpretable model (Lasso regression) to uncover:
-	• Which features most strongly influence CO₂ emissions
-	• How engine size, vehicle class, fuel type, and transmission contribute to emissions
-	• Whether regularization helps or harms interpretability
-	• Whether the dataset contains noise or whether relationships are clean and stable
+- Which features most strongly influence CO₂ emissions
+- How engine size, vehicle class, fuel type, and transmission contribute to emissions
+- Whether regularization helps or harms interpretability
+- Whether the dataset contains noise or whether relationships are clean and stable
 
 It includes:
 ✔ Data exploration
@@ -38,16 +38,16 @@ It includes:
 ✔ Data preprocessing
 ✔ Train–test split
 ✔ ColumnTransformers for:
-	• Linear + MLP models (one-hot + scaling)
-	• Tree-based models (ordinal encoding)
+- Linear + MLP models (one-hot + scaling)
+- Tree-based models (ordinal encoding)
 ✔ A unified Pipeline + GridSearchCV exploring:
-	• Linear Regression (with polynomial features)
-	• Ridge
-	• SVR
-	• Decision Trees
-	• Random Forests
-	• Gradient Boosting
-	• MLP Neural Networks
+- Linear Regression (with polynomial features)
+- Ridge
+- SVR
+- Decision Trees
+- Random Forests
+- Gradient Boosting
+- MLP Neural Networks
 
 ✔ Cross-validated R² and RMSE comparisons
 ✔ Visualization of model performance
@@ -63,28 +63,28 @@ How can we build the most accurate model for emissions prediction?
 ### 📌 Project Motivation
 Automakers face increasing pressure to reduce emissions to meet regulatory standards and consumer demand for sustainable vehicles.
 This project aims to provide a data-driven decision support tool that can be used even before a prototype is built.
-	• Using these notebooks, engineers can:
-	• Estimate emissions from early design specifications
-	• Experiment with design alternatives
-	• Optimize components to reduce emissions
-	• Make more informed and eco-conscious decisions
+- Using these notebooks, engineers can:
+	- Estimate emissions from early design specifications
+	- Experiment with design alternatives
+	- Optimize components to reduce emissions
+	- Make more informed and eco-conscious decisions
 
 ### 📊 Features Used
 Across both notebooks, the core features used for training include:
-	• Engine Size (L)
-	• Number of Cylinders
-	• Vehicle Class
-	• Transmission Type
-	• Fuel Type
+- Engine Size (L)
+- Number of Cylinders
+- Vehicle Class
+- Transmission Type
+- Fuel Type
 
 Fuel consumption columns are intentionally removed because they create data leakage: manufacturers cannot know these values prior to production.
 
 ### ⚙️ Technologies
-	• Python
-	• Jupyter Notebook
-	• Pandas, NumPy
-	• Scikit-learn
-	• Matplotlib, Seaborn
+- Python
+- Jupyter Notebook
+- Pandas, NumPy
+- Scikit-learn
+- Matplotlib, Seaborn
 
 ### 🚀 How to Use
 	1.	Clone the repository
@@ -102,18 +102,18 @@ cd <project-folder>
 		Open:
 		**dataset_analytics.ipynb**
 		You will be able to:
-	• Explore the dataset
-	• Understand relationships between features
-	• Analyze coefficients of a simple, explainable Lasso model
+- Explore the dataset
+- Understand relationships between features
+- Analyze coefficients of a simple, explainable Lasso model
 
 		🤖 If you want to train the best predictive model
 		Open:
 		**emissions_prediction.ipynb**
 		You will be able to:
-	• Train & compare multiple ML models
-	• Visualize performance
-	• Select the best model
-	• Predict emissions for new vehicle prototypes
+- Train & compare multiple ML models
+- Visualize performance
+- Select the best model
+- Predict emissions for new vehicle prototypes
 
 ### 📁 Dataset
 The project uses the CO₂ Emissions dataset from Kaggle:
