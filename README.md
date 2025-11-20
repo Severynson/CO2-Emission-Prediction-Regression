@@ -16,13 +16,13 @@ Its goal is not to maximize predictive performance, but to use a highly interpre
 - Whether the dataset contains noise or whether relationships are clean and stable
 
 It includes:
-✔ Data exploration
-✔ Cleaning and leakage removal
-✔ Categorical code decoding (transmission & fuel type)
-✔ ColumnTransformer with one-hot encoding + numeric normalization
-✔ Lasso models for multiple α values
-✔ Coefficient analysis & visualizations
-✔ Interpretation of real mechanical relationships
+- ✔ Data exploration
+- ✔ Cleaning and leakage removal
+- ✔ Categorical code decoding (transmission & fuel type)
+- ✔ ColumnTransformer with one-hot encoding + numeric normalization
+- ✔ Lasso models for multiple α values
+- ✔ Coefficient analysis & visualizations
+- ✔ Interpretation of real mechanical relationships
 
 This notebook answers the why behind emissions patterns and provides an engineering-level understanding of the dataset.
 
@@ -87,29 +87,29 @@ Fuel consumption columns are intentionally removed because they create data leak
 - Matplotlib, Seaborn
 
 ### 🚀 How to Use
-	1.	Clone the repository
+1.	Clone the repository
 ```
 git clone <your-repository-url>
 cd <project-folder>
 ```
-    2.	Install the requirements:
+2.	Install the requirements:
 ```pip install -r requirements.txt```
-    3.	Open the notebook. Use Jupyter Notebook or VS Code::
+3.	Open the notebook. Use Jupyter Notebook or VS Code::
 ```jupyter notebook```
-    4.	Choose your workflow
+4.	Choose your workflow
 
-		🔍 If you want to understand the dataset and interpret coefficients
-		Open:
-		**dataset_analytics.ipynb**
-		You will be able to:
+#### 🔍 If you want to understand the dataset and interpret coefficients
+##### Open:
+**dataset_analytics.ipynb**
+You will be able to:
 - Explore the dataset
 - Understand relationships between features
 - Analyze coefficients of a simple, explainable Lasso model
 
-		🤖 If you want to train the best predictive model
-		Open:
-		**emissions_prediction.ipynb**
-		You will be able to:
+#### 🤖 If you want to train the best predictive model
+##### Open:
+**emissions_prediction.ipynb**
+You will be able to:
 - Train & compare multiple ML models
 - Visualize performance
 - Select the best model
